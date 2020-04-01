@@ -22,3 +22,27 @@
   font-size: 32px;
   margin-bottom: 32px;
 }
+
+@media (max-width: 1000px) {
+  .loginContainer {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .loginContainer section.form {
+    margin-top: 0;
+    text-align: center;
+    max-width: 320px;
+    margin-right: 0;
+  }
+
+  .loginContainer .form img {
+    margin-top: 50px;
+    height: 100px;
+  }
+
+  .loginContainer img {
+    width: 300px;
+  }
+}

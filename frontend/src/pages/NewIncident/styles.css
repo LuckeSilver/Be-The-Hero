@@ -45,3 +45,16 @@
 .newIncidentContainer .content form textarea {
   margin-top: 8px;
 }
+
+@media (max-width: 950px) {
+  .newIncidentContainer .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .newIncidentContainer .content section img {
+    margin-top: 50px;
+  }
+}
